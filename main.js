@@ -2047,7 +2047,6 @@ Game.Launch=function()
 		Game.lumpsTotal=-1;//sugar lumps earned across all playthroughs (-1 means they haven't even started yet)
 		Game.lumpT=Date.now();//time when the current lump started forming
 		Game.lumpRefill=0;//time left before a sugar lump can be used again (on minigame refills etc) in logic frames
-		
 		Game.makeSeed=function()
 		{
 			var chars='abcdefghijklmnopqrstuvwxyz'.split('');
@@ -16839,7 +16838,7 @@ Game.Launch=function()
 	}
 }
 
-Game.LoadMod('https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js');
+
 /*=====================================================================================
 LAUNCH THIS THING
 =======================================================================================*/
